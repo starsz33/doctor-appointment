@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: lato;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color:skyblue;
+}
+
+nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+.mission {
+    width: 98%;
+    display: flex;
+    min-height: 400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+font-style:arial,sans serif;
+}
+
+.ad {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+margin-top:2opx;
+}
+
+.img {
+    width: 45%;
+    background: url(./img/tracto1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mainp {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.btn {
+    color: white;
+    background-color: skyblue;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 24px auto;
+}
+
+li img {
+    width: 24px;
+}
+
+.Copyright {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Copy {
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    font-weight: 700;
+}
+
+footer {
+    background-color:skyblue;
+}
+
+.container{
+width:40%;
+height:300px;
+background:grey;
+border-radius:30px;
+padding:20px 20px 20px ;
+margin-right:10px;
+margin-top:30px;
+}
